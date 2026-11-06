@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --concreto: #E2DFD8;
+    
+    --concreto-escuro: #CBC7BE;
+
+    --tinta: #0F1E3D;
+
+    --caixa-dagua:#1F5FBF;
+
+    --fita: #F3C623;
+
+    --branco #FFFFFF;
+}
