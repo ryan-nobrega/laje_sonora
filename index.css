@@ -15,5 +15,33 @@
 
     --fita: #F3C623;
 
-    --branco #FFFFFF;
+    --branco: #FFFFFF;
+
+    --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
+
+    --fonte-texto: "Archivo", Arial, sans-serif
+}
+
+body{
+    background-color: var(--concreto);
+    color: var(--tinta);
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+*{
+    color: inherit;
+}
+
+h1, h2, h3{
+     font-family: var(--fonte-cartaz);
+     font-weight: 900;
+    line-height: 0.95;
+}
+
+.conteudo{
+    max-width: 1200;
+    margin-inline: auto;
+    padding-inline: ;
 }
