@@ -6,19 +6,13 @@
 
 :root{
     --concreto: #E2DFD8;
-    
     --concreto-escuro: #CBC7BE;
-
     --tinta: #0F1E3D;
-
     --caixa-dagua:#1F5FBF;
-
     --fita: #F3C623;
-
     --branco: #FFFFFF;
 
     --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
-
     --fonte-texto: "Archivo", Arial, sans-serif
 }
 
@@ -47,17 +41,17 @@ h1, h2, h3{
 }
 
 .topo{
- padding-block: 28px;
- display: flex;
- justify-content: space-between;
- align-items: center;
+     padding-block: 28px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
 
  .logo{
-    font-family: var(--fonte-cartaz);   
- font-size: 34px;
- font-weight: 900;
- text-decoration: none;
+      font-family: var(--fonte-cartaz);   
+      font-size: 34px;
+      font-weight: 900;
+      text-decoration: none;
  }
 
 .menu{
@@ -101,7 +95,7 @@ h1, h2, h3{
     max-width: 9ch;
 }
 
-.cartaz-lateral p {
+.cartaz-lateral {
     background: var(--fita);
     flex: 1;
     display: flex;
@@ -127,7 +121,47 @@ h1, h2, h3{
     font-size: 17px;
     cursor: pointer;
 }
-
-.botao:hover{
+.botao:hover {
     background-color: var(--caixa-dagua);
+}
+
+.secao {
+    margin-top: 96px;
+}
+
+.titulo-secao {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    background-color: var(--branco);
+    border: 3px solid var(--tinta);
+    flex: 1 1 340;
+}
+
+.card .foto {
+    height: 170px;
+}
+
+.foto {
+    background-color: var(--concreto);
+}
+
+.foto-azul {
+    background-color: var(--caixa-dagua);
+}
+
+.foto-amarela {
+    border-color: var(--fita);
+}
+
+.foto-tinta {
+    background-color: var(--tinta);
 }
